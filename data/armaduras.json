@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "nome": "Armadura de Couro",
+    "descricao": "Proteção leve e flexível",
+    "precoMin": 40,
+    "precoMax": 70
+  },
+  {
+    "id": 2,
+    "nome": "Cota de Malha",
+    "descricao": "Armadura de anéis entrelaçados",
+    "precoMin": 100,
+    "precoMax": 150
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "nome": "Pergaminho de Bola de Fogo",
+    "descricao": "Permite conjurar uma bola de fogo explosiva",
+    "precoMin": 100,
+    "precoMax": 150,
+    "efeito": "3d6 de dano de fogo em área"
+  },
+  {
+    "id": 2,
+    "nome": "Pergaminho de Cura",
+    "descricao": "Magia de cura em pergaminho",
+    "precoMin": 80,
+    "precoMax": 120,
+    "efeito": "Recupera 3d8+3 HP"
+  }
+]

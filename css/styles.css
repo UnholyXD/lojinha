@@ -1,0 +1,286 @@
+/* Estilos gerais */
+:root {
+    --rarity-common: #f8f9fa;
+    --rarity-uncommon: #0dcaf0;
+    --rarity-rare: #9d4edd;
+    --rarity-legendary: #ffc107;
+    --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+    --border-radius: 10px;
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    --font-size-sm: 0.85rem;
+    --font-size: 1rem;
+    --font-size-lg: 1.1rem;
+    --font-size-xl: 1.5rem;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 600;
+    --color-primary: #2c3e50;
+    --color-secondary: #3498db;
+    --color-success: #198754;
+    --color-text: #2c3e50;
+    --color-text-muted: #6c757d;
+    --color-bg: #f5f5f5;
+    --color-card-bg: #ffffff;
+    --color-border: #dee2e6;
+}
+
+/* Reset e estilos base */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    padding: 0 var(--spacing);
+}
+
+a {
+    color: var(--color-secondary);
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Cabeçalho */
+header {
+    padding: var(--spacing-xl) 0;
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+    color: white;
+    margin: calc(-1 * var(--spacing)) calc(-1 * var(--spacing)) var(--spacing-xl);
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
+    box-shadow: var(--card-shadow);
+    text-align: center;
+}
+
+/* Cards de itens */
+.item-card {
+    height: 100%;
+    transition: var(--transition);
+    border: none;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--card-shadow);
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-card-bg);
+}
+
+.item-card .card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: var(--spacing);
+    position: relative;
+}
+
+.item-card .card-content {
+    flex: 1;
+    margin-bottom: var(--spacing);
+}
+
+.item-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Cores de raridade */
+.rarity-common {
+    --rarity-color: var(--rarity-common);
+}
+
+.rarity-uncommon {
+    --rarity-color: var(--rarity-uncommon);
+}
+
+.rarity-rare {
+    --rarity-color: var(--rarity-rare);
+}
+
+.rarity-legendary {
+    --rarity-color: var(--rarity-legendary);
+}
+
+.rarity-common,
+.rarity-uncommon,
+.rarity-rare,
+.rarity-legendary {
+    border-left: 8px solid var(--rarity-color);
+    border-bottom: 8px solid var(--rarity-color);
+}
+
+/* Efeitos especiais */
+.special-effect {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+    margin-bottom: var(--spacing-xs);
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-xs);
+}
+
+.special-effect i {
+    color: var(--color-text-muted);
+    flex-shrink: 0;
+    margin-top: 0.2em;
+}
+
+/* Preço */
+.item-price {
+    font-weight: var(--font-weight-bold);
+    color: var(--color-success);
+    font-size: var(--font-size-lg);
+    margin-top: auto;
+    padding-top: var(--spacing);
+    border-top: 1px solid var(--color-border);
+    display: block;
+    text-align: right;
+}
+
+/* Categorias */
+.category-header {
+    margin: var(--spacing-xl) 0 var(--spacing);
+    padding-bottom: var(--spacing-sm);
+    border-bottom: 2px solid var(--color-border);
+    color: var(--color-primary);
+    font-weight: var(--font-weight-bold);
+}
+
+/* Botões */
+.btn {
+    display: inline-block;
+    font-weight: var(--font-weight-medium);
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: var(--spacing-sm) var(--spacing);
+    font-size: var(--font-size);
+    line-height: 1.5;
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.btn-primary {
+    color: white;
+    background: linear-gradient(135deg, var(--color-secondary) 0%, var(--color-primary) 100%);
+    border: none;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tipografia */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: var(--spacing);
+    font-weight: var(--font-weight-bold);
+    line-height: 1.2;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: var(--font-size-lg); }
+
+.card-title {
+    margin-bottom: var(--spacing-sm);
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text);
+}
+
+.card-subtitle {
+    margin-bottom: var(--spacing);
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+}
+
+/* Layout */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--spacing);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 calc(-0.5 * var(--spacing));
+}
+
+[class*="col-"] {
+    padding: 0 calc(0.5 * var(--spacing));
+    margin-bottom: var(--spacing);
+}
+
+/* Utilidades */
+.text-center { text-align: center; }
+.mt-1 { margin-top: var(--spacing-xs); }
+.mt-2 { margin-top: var(--spacing-sm); }
+.mt-3 { margin-top: var(--spacing); }
+.mt-4 { margin-top: var(--spacing-lg); }
+.mt-5 { margin-top: var(--spacing-xl); }
+
+/* Animações */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse {
+    0% { opacity: 0.6; }
+    50% { opacity: 1; }
+    100% { opacity: 0.6; }
+}
+
+.fade-in {
+    animation: fadeIn 0.3s ease-out forwards;
+}
+
+.loading-pulse {
+    animation: pulse 1.5s infinite;
+}
+
+/* Footer */
+footer {
+    margin-top: var(--spacing-xl);
+    padding: var(--spacing-lg) 0;
+    background: linear-gradient(135deg, var(--color-primary) 0%, #1a252f 100%);
+    color: white;
+    text-align: center;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    :root {
+        --spacing: 0.75rem;
+        --font-size: 0.9375rem;
+    }
+    
+    .item-card {
+        margin-bottom: var(--spacing);
+    }
+    
+    header h1 {
+        font-size: 1.8rem;
+    }
+}

@@ -1,0 +1,65 @@
+{
+  "armas": [
+    {
+      "id": 1,
+      "efeito": "+1 de dano",
+      "descricao": "A arma causa dano adicional"
+    },
+    {
+      "id": 2,
+      "efeito": "+2 em acerto crítico",
+      "descricao": "Aumenta a chance de acerto crítico"
+    },
+    {
+      "id": 3,
+      "efeito": "Dano elemental (fogo)",
+      "descricao": "Adiciona 1d4 de dano de fogo"
+    },
+    {
+      "id": 4,
+      "efeito": "Vampirismo",
+      "descricao": "Recupera 10% do dano causado como HP"
+    }
+  ],
+  "armaduras": [
+    {
+      "id": 1,
+      "efeito": "+1 de defesa",
+      "descricao": "Aumenta a classe de armadura"
+    },
+    {
+      "id": 2,
+      "efeito": "Resistência a fogo",
+      "descricao": "Reduz dano de fogo em 50%"
+    },
+    {
+      "id": 3,
+      "efeito": "Regeneração",
+      "descricao": "Recupera 1 HP por turno"
+    }
+  ],
+  "pocoes": [
+    {
+      "id": 1,
+      "efeito": "Efeito prolongado",
+      "descricao": "O efeito dura 2 turnos extras"
+    },
+    {
+      "id": 2,
+      "efeito": "Efeito potencializado",
+      "descricao": "Dobra a eficácia da poção"
+    }
+  ],
+  "pergaminhos": [
+    {
+      "id": 1,
+      "efeito": "Conjuração rápida",
+      "descricao": "Pode ser usado como ação bônus"
+    },
+    {
+      "id": 2,
+      "efeito": "Área aumentada",
+      "descricao": "O raio de efeito é dobrado"
+    }
+  ]
+}

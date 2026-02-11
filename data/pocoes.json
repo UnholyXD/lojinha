@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "nome": "Poção de Cura Menor",
+    "descricao": "Restaura uma pequena quantidade de pontos de vida",
+    "precoMin": 20,
+    "precoMax": 35,
+    "efeito": "Recupera 2d4+2 HP"
+  },
+  {
+    "id": 2,
+    "nome": "Poção de Mana",
+    "descricao": "Restaura energia mágica",
+    "precoMin": 25,
+    "precoMax": 40,
+    "efeito": "Recupera 1d6+1 PM"
+  }
+]

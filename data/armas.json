@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nome": "Espada Longa",
+    "descricao": "Uma espada bem balanceada, ideal para combate corpo a corpo",
+    "precoMin": 50,
+    "precoMax": 80
+  },
+  {
+    "id": 2,
+    "nome": "Adaga Curva",
+    "descricao": "Uma adaga ágil e precisa",
+    "precoMin": 30,
+    "precoMax": 60
+  },
+  {
+    "id": 3,
+    "nome": "Machado de Batalha",
+    "descricao": "Um machado pesado que causa grande dano",
+    "precoMin": 70,
+    "precoMax": 120
+  }
+]
