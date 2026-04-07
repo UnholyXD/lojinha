@@ -12,5 +12,61 @@
     "descricao": "Armadura de anéis entrelaçados",
     "precoMin": 100,
     "precoMax": 150
+  },
+  {
+    "id": 3,
+    "nome": "Peitoral de Escamas",
+    "descricao": "Proteção leve para o peitoral",
+    "precoMin": 80,
+    "precoMax": 120
+  },
+  {
+    "id": 4,
+    "nome": "Cota de Placa",
+    "descricao": "Armadura de placas de metal",
+    "precoMin": 150,
+    "precoMax": 220
+  },
+  {
+    "id": 5,
+    "nome": "Juba de Cuir",
+    "descricao": "Armadura leve de couro",
+    "precoMin": 50,
+    "precoMax": 80
+  },
+  {
+    "id": 6,
+    "nome": "Cota de Malha de Ferro",
+    "descricao": "Armadura de malha de ferro",
+    "precoMin": 180,
+    "precoMax": 250
+  },
+  {
+    "id": 7,
+    "nome": "Armadura de Tecido",
+    "descricao": "Armadura de tecido resistente",
+    "precoMin": 120,
+    "precoMax": 180
+  },
+  {
+    "id": 8,
+    "nome": "Cota de Manto",
+    "descricao": "Armadura de couro com manto",
+    "precoMin": 100,
+    "precoMax": 150
+  },
+  {
+    "id": 9,
+    "nome": "Armadura de Escamas de Dragão",
+    "descricao": "Armadura de escamas de dragão",
+    "precoMin": 250,
+    "precoMax": 350
+  },
+  {
+    "id": 10,
+    "nome": "Cota de Placa de Prata",
+    "descricao": "Armadura de placas de prata",
+    "precoMin": 220,
+    "precoMax": 300
   }
 ]

@@ -19,5 +19,54 @@
     "descricao": "Um machado pesado que causa grande dano",
     "precoMin": 70,
     "precoMax": 120
+  },
+  {
+    "id": 4,
+    "nome": "Lança de Gelo",
+    "descricao": "Uma lança que congela o alvo",
+    "precoMin": 90,
+    "precoMax": 150
+  },
+  {
+    "id": 5,
+    "nome": "Faca de Combate",
+    "descricao": "Uma faca aguçada e perigosa",
+    "precoMin": 40,
+    "precoMax": 80
+  },
+  {
+    "id": 6,
+    "nome": "Arco Longo",
+    "descricao": "Um arco longo que causa dano a distância",
+    "precoMin": 60,
+    "precoMax": 120
+  },
+  {
+    "id": 7,
+    "nome": "Florete",
+    "descricao": "Um florete leve e ágil",
+    "precoMin": 30,
+    "precoMax": 60
+  },
+  {
+    "id": 8,
+    "nome": "Cajado Mágico",
+    "descricao": "Um cajado mágico que causa dano mágico",
+    "precoMin": 70,
+    "precoMax": 120
+  },
+  {
+    "id": 9,
+    "nome": "Cajado de Batalha",
+    "descricao": "Um cajado pesado que causa dano de força",
+    "precoMin": 100,
+    "precoMax": 150
+  },
+  {
+    "id": 10,
+    "nome": "Maça de Batalha",
+    "descricao": "Um mace pesado que causa dano de força",
+    "precoMin": 150,
+    "precoMax": 220
   }
 ]
